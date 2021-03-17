@@ -1,0 +1,60 @@
+
+html{
+    background-color: white;
+}
+
+body{
+    background-color:  whitesmoke;
+    border: 2px solid black;
+    background-image: url('../background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tit{
+    color: deeppink;
+}
+
+.lead {
+    font-size: 30px;
+}
+
+.subtit {
+    font-size: 40px;
+}
+
+.negative{
+    display: none;
+}
+
+.btn {
+    color: white;
+}
+
+
+
+hr {
+    color: rgb(54, 59, 59);
+
+}
+
+
+.fixed_div{
+    margin-left:300px;
+    bottom:300px;
+    width:400px;
+}
+
+#form{
+    /*position: absolute;*/
+    margin-left: 100px;
+}
+
+#sig{
+    text-align: right;
+    color: red;
+    font-size: small;
+    font-style: italic;
+}
+
