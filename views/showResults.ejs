@@ -5,22 +5,40 @@
 
 <body>
     <h1>Survey analysis</h1>
-    <h2>Colors</h2>
+    <h2>people</h2>
     <ul>
     <% for (var i=0; i<results[0].length; i++){ %>
-        <li><%= results[0][i].color %> :  <%= results[0][i].count %></li>
+        <li><%= results[0][i].firstname %> :  <%= results[0][i].lastname %></li>
     <% } %>    
     </ul>
-    <h2>Fruits</h2>
+    <h2>effect</h2>
     <ul>
     <% for (var i=0; i<results[1].length; i++){ %>
-        <li><%= results[1][i].fruit %> :  <%= results[1][i].count %></li>
+        <li><%= results[1][i].effect %> :  <%= results[1][i].count %></li>
     <% } %>    
     </ul>
-    <h2>Animals</h2>
+    <h2>Impression and suggestion</h2>
     <ul>
     <% for (var i=0; i<results[2].length; i++){ %>
-        <li><%= results[2][i].animal %> :  <%= results[2][i].count %></li>
+        <li><%= results[2][i].impression %> :  <%= results[2][i].suggestion %></li>
+    <% } %>    
+    </ul>
+    <h2>consistent</h2>
+    <ul>
+    <% for (var i=0; i<results[3].length; i++){ %>
+        <li><%= results[3][i].consistent %> :  <%= results[3][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>rate</h2>
+    <ul>
+    <% for (var i=0; i<results[4].length; i++){ %>
+        <li><%= results[4][i].rate %> :  <%= results[4][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>advantage</h2>
+    <ul>
+    <% for (var i=0; i<results[5].length; i++){ %>
+        <li><%= results[5][i].advantage %> :  <%= results[5][i].count %></li>
     <% } %>    
     </ul>
 </body>
