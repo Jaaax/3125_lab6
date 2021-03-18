@@ -8,7 +8,7 @@
     <h2>people</h2>
     <ul>
     <% for (var i=0; i<results[0].length; i++){ %>
-        <li><%= results[0][i].firstname %> :  <%= results[0][i].lastname %></li>
+        <li><%= results[0][i].firstname %>  <%= results[0][i].lastname %></li>
     <% } %>    
     </ul>
     <h2>effect</h2>
@@ -20,7 +20,7 @@
     <h2>Impression and suggestion</h2>
     <ul>
     <% for (var i=0; i<results[2].length; i++){ %>
-        <li><%= results[2][i].impression %> :  <%= results[2][i].suggestion %></li>
+        <li>impression: <%= results[2][i].impression %>, suggresstion: <%= results[2][i].suggestion %></li>
     <% } %>    
     </ul>
     <h2>consistent</h2>
